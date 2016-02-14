@@ -1,4 +1,4 @@
-#change the file path
+#change the file path before running the R file
 filepath<-file.path("c://DataSceince//ExploratoryData//Week1//exdata-data-household_power_consumption//household_power_consumption.txt")
 #read file to a table 
 hpc_data <- read.table(filepath,sep=";",header=TRUE)
